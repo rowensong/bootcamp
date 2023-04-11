@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid black;
+}
+.wrapper__header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.wrapper .header__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper .title {
+  color: #55b2e4;
+  font-size: 13px;
+  font-weight: 700;
+}
+.wrapper .subtitle {
+  font-size: 8px;
+  padding-left: 5px;
+}
+.wrapper .divideLine {
+  width: 100%;
+  border-top: 1px solid gray;
+}
+
+.game__container {
+  width: 222px;
+  height: 168px;
+  border: 1px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  background-color: #f6f6f6;
+}
+
+.game__title {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.game__subtitle {
+  font-size: 11px;
+}
+
+.word__result {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.word__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.textbox {
+  width: 130px;
+  height: 24px;
+  border-radius: 5px;
+}
+
+.search {
+  font-size: 11px;
+  font-weight: 700;
+  width: 38px;
+  height: 24px;
+}
+
+.game__lotto__number {
+  width: 130px;
+  height: 21px;
+  background-color: #ffe400;
+  border-radius: 8px;
+  border: 1px solid black;
+  font-size: 10px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 8px;
+  margin-bottom: 11px;
+  margin-top: 10px;
+}
+
+.wrapper__lotto__btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 11px;
+  width: 62px;
+  height: 24px;
+  background-color: white;
+}/*# sourceMappingURL=game.min.css.map */
